@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>章节列表 — 末日后我成了守墓人</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .vol-section { margin: 2.5rem 0; }
+  .vol-head {
+    padding: 1rem 1.5rem;
+    background: var(--bg-card);
+    border-left: 3px solid var(--accent-rust);
+    margin-bottom: 0.5rem;
+  }
+  .vol-head h3 { margin: 0; }
+  .vol-head .vol-sub { font-size: 0.85rem; color: var(--text-dim); }
+  .ch-list { list-style: none; }
+  .ch-list li {
+    padding: 0.7rem 1.5rem;
+    border-bottom: 1px dotted rgba(74,67,54,0.4);
+    display: flex; align-items: center; gap: 0.8rem;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+  }
+  .ch-list li:hover { background: rgba(196,132,58,0.04); }
+  .ch-num {
+    color: var(--accent-rust);
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    min-width: 4.5rem;
+  }
+  .ch-title { color: var(--text-main); flex: 1; }
+  .ch-list a { color: inherit; border: none; display: contents; }
+  .ch-list a:hover .ch-title { color: var(--text-bright); }
+  .ch-badge {
+    font-size: 0.68rem;
+    padding: 0.1rem 0.6rem;
+    border: 1px solid var(--border-worn);
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+  .ch-badge.done { border-color: var(--accent-rust); color: var(--accent-rust); }
+  .ch-badge.wip { border-color: rgba(196,132,58,0.4); color: rgba(196,132,58,0.7); }
+</style>
+</head>
+<body>
+
+<div class="dust-container">
+  <div class="dust-particle"></div><div class="dust-particle"></div>
+  <div class="dust-particle"></div><div class="dust-particle"></div>
+  <div class="dust-particle"></div><div class="dust-particle"></div>
+  <div class="dust-particle"></div><div class="dust-particle"></div>
+  <div class="dust-particle"></div><div class="dust-particle"></div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="site-title"><a href="index.html">末日后我成了守墓人</a></div>
+    <nav class="site-nav">
+      <a href="index.html">首页</a>
+      <a href="characters.html">人物</a>
+      <a href="world.html">世界</a>
+      <a href="chapters.html" class="active">章节</a>
+    </nav>
+  </div>
+</header>
+
+<main class="site-wrapper">
+
+  <section class="hero" style="padding:3rem 0 2rem;">
+    <h1>章节列表</h1>
+    <p class="subtitle">300章 · 5卷 · 60个剧情单元</p>
+  </section>
+
+  <div class="notice" style="margin-bottom:2rem;">
+    正文正在创作中。每完成一章即刻更新。目前进度：<strong style="color:var(--accent-rust-light);">设定阶段完成，正文待启</strong>
+  </div>
+
+  <!-- Volume 1 -->
+  <div class="vol-section">
+    <div class="vol-head">
+      <h3>第一卷 · 废城求生</h3>
+      <div class="vol-sub">末日第1-2年 · 副标题「活着不好吗」 · 23人→20人</div>
+    </div>
+    <ul class="ch-list">
+      <li><span class="ch-num">第1-5章</span><span class="ch-title">单元1 · 相遇</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第6-10章</span><span class="ch-title">单元2 · 成团</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第11-15章</span><span class="ch-title">单元3 · 废土日常</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第16-20章</span><span class="ch-title">单元4 · 水源的阴影</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第21-25章</span><span class="ch-title">单元5 · 仓库</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第26-30章</span><span class="ch-title">单元6 · 第一滴血 ★</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第31-35章</span><span class="ch-title">单元7 · 信任危机</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第36-40章</span><span class="ch-title">单元8 · 冬天的考验</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第41-45章</span><span class="ch-title">单元9 · 水源战争·启</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第46-50章</span><span class="ch-title">单元10 · 水源战争·战</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第51-55章</span><span class="ch-title">单元11 · 水源战争·决</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第56-60章</span><span class="ch-title">单元12 · 向南 ★</span><span class="ch-badge wip">待创作</span></li>
+    </ul>
+  </div>
+
+  <!-- Volume 2 -->
+  <div class="vol-section">
+    <div class="vol-head">
+      <h3>第二卷 · 向南之路</h3>
+      <div class="vol-sub">末日第3-4年 · 副标题「明天就好了」 · 20人→17人</div>
+    </div>
+    <ul class="ch-list">
+      <li><span class="ch-num">第61-65章</span><span class="ch-title">单元13 · 上路</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第66-70章</span><span class="ch-title">单元14 · 新丰站</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第71-75章</span><span class="ch-title">单元15 · 新丰站的阴影</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第76-80章</span><span class="ch-title">单元16 · 坏血病</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第81-85章</span><span class="ch-title">单元17 · 宋念念的春天</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第86-90章</span><span class="ch-title">单元18 · 漫长的告别 ★</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第91-95章</span><span class="ch-title">单元19 · 分你一半</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第96-100章</span><span class="ch-title">单元20 · 决裂</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第101-105章</span><span class="ch-title">单元21 · 狼烟</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第106-110章</span><span class="ch-title">单元22 · 沉默的相机</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第111-115章</span><span class="ch-title">单元23 · 医生的处方</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第116-120章</span><span class="ch-title">单元24 · 走出废墟 ★</span><span class="ch-badge wip">待创作</span></li>
+    </ul>
+  </div>
+
+  <!-- Volume 3 -->
+  <div class="vol-section">
+    <div class="vol-head">
+      <h3>第三卷 · 散落之人</h3>
+      <div class="vol-sub">末日第5-7年 · 副标题「有人在看着你」 · 17人→12人</div>
+    </div>
+    <ul class="ch-list">
+      <li><span class="ch-num">第121-125章</span><span class="ch-title">单元25 · 废墟之后</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第126-130章</span><span class="ch-title">单元26 · 狼来了</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第131-135章</span><span class="ch-title">单元27 · 围困</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第136-140章</span><span class="ch-title">单元28 · 突围</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第141-145章</span><span class="ch-title">单元29 · 最后的胶片 ★</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第146-150章</span><span class="ch-title">单元30 · 小树</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第151-155章</span><span class="ch-title">单元31 · 追击</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第157-160章</span><span class="ch-title">单元32 · 散落的棋子 ★</span><span class="ch-badge wip">待创作</span></li>
+    </ul>
+  </div>
+
+  <!-- Volume 4 -->
+  <div class="vol-section">
+    <div class="vol-head">
+      <h3>第四卷 · 最长的黑夜</h3>
+      <div class="vol-sub">末日第8-10年 · 副标题「我没事」 · 12人→5人</div>
+    </div>
+    <ul class="ch-list">
+      <li><span class="ch-num">第181-185章</span><span class="ch-title">单元33 · 铁桥镇</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第186-190章</span><span class="ch-title">单元34 · 沉默</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第191-195章</span><span class="ch-title">单元35 · 疯</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第196-200章</span><span class="ch-title">单元36 · 沈寒渊的交易</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第201-205章</span><span class="ch-title">单元37 · 还了 ★</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第206-210章</span><span class="ch-title">单元38 · 一声不吭 ★</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第211-215章</span><span class="ch-title">单元39 · 阿九的谎话</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第216-220章</span><span class="ch-title">单元40 · 军师的反噬</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第221-225章</span><span class="ch-title">单元41 · 钱大友的账</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第226-230章</span><span class="ch-title">单元42 · 五个人 ★</span><span class="ch-badge wip">待创作</span></li>
+    </ul>
+  </div>
+
+  <!-- Volume 5 -->
+  <div class="vol-section">
+    <div class="vol-head">
+      <h3>第五卷 · 黎明之前</h3>
+      <div class="vol-sub">末日第11-12年 · 副标题「到了新世界以后」 · 5人→1人</div>
+    </div>
+    <ul class="ch-list">
+      <li><span class="ch-num">第241-245章</span><span class="ch-title">单元43 · 五个人的路</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第246-250章</span><span class="ch-title">单元44 · 全家福</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第251-255章</span><span class="ch-title">单元45 · 最后一个好人</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第256-260章</span><span class="ch-title">单元46 · 无人的角落 ★</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第261-265章</span><span class="ch-title">单元47 · 黎明前</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第266-270章</span><span class="ch-title">单元48 · 到了新世界以后</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第271-275章</span><span class="ch-title">单元49 · 迁墓</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第276-280章</span><span class="ch-title">单元50 · 二十三块墓碑</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第281-285章</span><span class="ch-title">单元51 · 逐一对话</span><span class="ch-badge wip">待创作</span></li>
+      <li><span class="ch-num">第286-290章</span><span class="ch-title">单元52 · 后来的后来</span><span class="ch-badge wip">待创作</span></li>
+    </ul>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="tombstone">▧</div>
+  <p>「你们谁都不回我。没关系。我不急。」</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
