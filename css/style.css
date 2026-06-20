@@ -517,6 +517,27 @@ a:hover { color: var(--text-bright); border-color: var(--text-bright); }
 .gap-sm { gap: 0.5rem; }
 .flex-wrap { display: flex; flex-wrap: wrap; }
 
+/* --- Scene Break --- */
+.scene-break {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(196,132,58,0.3), transparent);
+  margin: 2.5rem 0;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Chapter End --- */
+.chapter-end {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  text-indent: 0 !important;
+  letter-spacing: 0.1em;
+}
+
 /* --- Divider --- */
 .divider {
   border: none;
